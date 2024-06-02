@@ -15,6 +15,8 @@ export default class Login extends SfdxCommand {
 
   public static description = messages.getMessage("loginToOrg");
 
+  // TODO: SFDX to SF
+  //  Change all SFDX cli commands to SF
   public static examples = ["$ sfdx hardis:auth:login"];
 
   // public static args = [{name: 'file'}];
